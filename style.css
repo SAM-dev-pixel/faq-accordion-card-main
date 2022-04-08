@@ -24,7 +24,7 @@ body {
 #container {
   width: 100%;
   min-height: 100vh;
-  padding: 45% 0 10% 0;
+  padding: 20vh 0 10vh 0;
   position: relative;
   overflow: hidden;
 }
@@ -87,6 +87,7 @@ body {
 }
 
 @media (min-width: 50em) {
+  #container { padding: 10vh; }
   .faq-section { 
     width: min(100% - 12rem, 60rem);
     padding: 0;
